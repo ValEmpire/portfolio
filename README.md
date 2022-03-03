@@ -1,33 +1,41 @@
-# Tunis Personal Portfolio React Template
+# My Portfolio
 
-## Description
+### 🚀 About Me
 
-Setup Procedure
+Ambitious and driven wev app developer with a broad technical skills set. Expertise in RESTful apis using Node and Express, and well versed in client side or server side rendering in React and Redux.
 
-## Project setup
+### Tech Stack
 
-```
-npm install
-```
+**Client:** ReactJs, Bootstrap
 
-### Compiles and hot-reloads for development
+**Server:** Firebase Hosting, Firebase Auth, Firebase Realtime Database
 
-```
-npm run start
-```
+### Demo
 
-### Compiles and minifies for production
+[Visit my Portofolio](https://arcival-palma.web.app)
 
-```
-npm run build
-```
+### Run Locally
 
-### Lints and fixes files
+Clone the project
 
-```
-npm run lint
+```bash
+  git clone https://github.com/ValEmpire/portfolio.git myportfolio
 ```
 
-### Customize configuration (vue-cli)
+Go to the project directory
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```bash
+  cd myportfolio
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```

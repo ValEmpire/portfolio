@@ -1,8 +1,17 @@
 import React from "react";
 
 const ModalProjectContent = (props) => {
-  const { name, stack, gitUrl, gitName, liveUrl, imageUrl, liveName, details } =
-    props.project;
+  const {
+    name,
+    clientStack,
+    serverStack,
+    gitUrl,
+    gitName,
+    liveUrl,
+    imageUrl,
+    liveName,
+    details,
+  } = props.project;
 
   return (
     <div className="slideshow">
@@ -12,9 +21,28 @@ const ModalProjectContent = (props) => {
           <h3>{name}</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
-              <i className="fa fa-code pr-2"></i>
-              <span className="project-label">Stack </span>:{" "}
-              <span className="ft-wt-600 uppercase">{stack}</span>
+              <div className="row">
+                <div className="col-12 mb-2">
+                  <i className="fa fa-code pr-2"></i>
+                  <span className="project-label">Client Stack </span>:{" "}
+                  <span
+                    className="ft-wt-600 uppercase"
+                    style={{ color: "#ffb400" }}
+                  >
+                    {clientStack}
+                  </span>
+                </div>
+                <div className="col-12 mb-2">
+                  <i className="fa fa-code pr-2"></i>
+                  <span className="project-label">Server Stack </span>:{" "}
+                  <span
+                    className="ft-wt-600 uppercase"
+                    style={{ color: "#ffb400" }}
+                  >
+                    {serverStack}
+                  </span>
+                </div>
+              </div>
             </div>
             {/* End .col */}
 

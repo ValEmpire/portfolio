@@ -16,7 +16,11 @@ const Project = (props) => {
       <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="0">
         <figure
           onClick={toggleModalOne}
-          style={{ borderStyle: "solid", borderWidth: "1px" }}
+          style={{
+            borderStyle: "solid",
+            borderWidth: "1px",
+            borderColor: "#f4f4f4",
+          }}
         >
           <img src={imageUrl} alt="Portolio" />
           <div className=" hover-content-wrapper">
@@ -32,6 +36,7 @@ const Project = (props) => {
           className="custom-modal dark"
           overlayClassName="custom-overlay dark"
           closeTimeoutMS={500}
+          shouldCloseOnOverlayClick={false}
         >
           <div>
             <button className="close-modal" onClick={toggleModalOne}>

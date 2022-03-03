@@ -7,8 +7,9 @@ const Portfolio = () => {
     {
       name: "InvestorsWeb",
       imageUrl: "/img/projects/investorsweb.png",
-      stack:
-        "Node, Express, Firebase, React, Material UI, SocketIo, Redux, PostgreSQL, Sequelize, http-only cookie, Stripe",
+      clientStack: "Firebase, React, Material UI, SocketIo, Redux, Stripe",
+      serverStack:
+        "Node, Express, Firebase-admin, SocketIo, PostgreSQL, Sequelize, http-only cookie, Stripe",
       liveUrl: "http://138.197.155.90/",
       liveName: "investorsweb.ca",
       gitUrl: "https://github.com/ValEmpire/investorsweb",
@@ -19,7 +20,8 @@ const Portfolio = () => {
     {
       name: "TinyApp",
       imageUrl: "/img/projects/tinyapp.png",
-      stack: "Node, Express, EJS. Test using Mocha, Chai and Chai as Promised",
+      clientStack: "EJS, JQuery, AJAX",
+      serverStack: "Node, Express, Test using Mocha, Chai and Chai as Promised",
       liveUrl: "https://tinyurlval.herokuapp.com/login",
       liveName: "tinyapp.ca",
       gitUrl: "https://github.com/ValEmpire/tinyapp",
@@ -30,8 +32,8 @@ const Portfolio = () => {
     {
       name: "Chef's Menu",
       imageUrl: "/img/projects/chefs.png",
-      stack:
-        "MongoDB, Express, React, Node, SocketIo, Material UI, Stripe, Google Maps API",
+      clientStack: "React, Material UI, Stripe, ContextAPI",
+      serverStack: "MongoDB, Express, Node, SocketIo, Stripe, Google Maps API",
       liveUrl: "https://chef-booking-app.herokuapp.com/login",
       liveName: "chefsmenu.ca",
       gitUrl: "https://github.com/hatchways/team-manta-ray",
@@ -42,7 +44,8 @@ const Portfolio = () => {
     {
       name: "Easy Laptop Finder",
       imageUrl: "/img/projects/elf.png",
-      stack: "Node, Express, Firebase, EJS, JQuery, Ajax, PostgreSQL",
+      clientStack: "Firebase, EJS, JQuery, Ajax",
+      serverStack: "Node, Express, PostgreSQL",
       liveUrl: "",
       liveName: "",
       gitUrl: "https://github.com/ValEmpire/elf",
@@ -51,9 +54,21 @@ const Portfolio = () => {
         "An app where you can put laptops for sale. This lets buyers find the items they are looking for quickly, and easily contact sellers.",
     },
     {
+      name: "Tweeter",
+      imageUrl: "/img/projects/tweeter.png",
+      clientStack: "HTML, CSS/Bootstrap, JQuery, Ajax",
+      serverStack: "Node, Express",
+      liveUrl: "https://tweeter-val.herokuapp.com/",
+      liveName: "tweeter.ca",
+      gitUrl: "https://github.com/ValEmpire/tweeter",
+      gitName: "ValEmpire/tweeter",
+      details: "Tweeter is a simple, single-page Twitter clone.",
+    },
+    {
       name: "FlowerNinja Server",
       imageUrl: "/img/projects/flowerninja.png",
-      stack: "Node, Express, Sequelize, MYSQL, JWT",
+      clientStack: "",
+      serverStack: "Node, Express, Sequelize, MYSQL, JWT, Paypal API",
       liveUrl: "",
       liveName: "",
       gitUrl: "https://github.com/Gabszy10/gabszy-flower-backend",
@@ -64,7 +79,8 @@ const Portfolio = () => {
     {
       name: "Snake multiplayer",
       imageUrl: "/img/projects/snake.png",
-      stack: "Node, http, Terminal, OOP Javascript",
+      clientStack: "HTML, CSS",
+      serverStack: "Node, http, Terminal, OOP Javascript",
       liveUrl: "",
       liveName: "",
       gitUrl: "https://github.com/ValEmpire/snake_multiplayer",
@@ -75,7 +91,8 @@ const Portfolio = () => {
     {
       name: "My Kwento",
       imageUrl: "/img/projects/mykwento.png",
-      stack: "Flutter, Android Studio, Firebase",
+      clientStack: "Dart, Flutter, Material Design, Firebase ",
+      serverStack: "",
       liveUrl: "",
       liveName: "",
       gitUrl: "https://github.com/ValEmpire/MyKwento",
@@ -86,7 +103,8 @@ const Portfolio = () => {
     {
       name: "FreshJobs",
       imageUrl: "/img/projects/freshjobs.png",
-      stack: "NextJs, Firebase, Material UI, Redux",
+      clientStack: "NextJs, Firebase, Material UI, Redux",
+      serverStack: "Node, Express, MongoDB, Mongoose Firebase-admin",
       liveUrl: "",
       liveName: "",
       gitUrl: "https://github.com/ValEmpire/freshjobs",
@@ -97,12 +115,37 @@ const Portfolio = () => {
     {
       name: "My Portfolio",
       imageUrl: "/img/projects/portfolio.png",
-      stack: "React, Firebase Hosting, Firebase Realtime Database, SCSS",
+      clientStack: "React, Firebase Hosting, Firebase Realtime Database, SCSS",
+      serverStack: "serverless",
+      liveUrl: "https://arcival-palma.web.app/",
+      liveName: "arcival-palma.web.app",
+      gitUrl: "https://github.com/ValEmpire/portfolio",
+      gitName: "ValEmpire/myportfolio",
+      details:
+        "Ambitious and driven wev app developer with a broad technical skills set. Expertise in RESTful apis using Node and Express, and well versed in client side or server side rendering in React and Redux.",
+    },
+    {
+      name: "Simpson Wong",
+      imageUrl: "/img/projects/client.png",
+      clientStack: "Wix Website Builder",
+      serverStack: "",
+      liveUrl: "https://www.simpsonwong.com/",
+      liveName: "simpsonwong.com",
+      gitUrl: "",
+      gitName: "",
+      details: "Created a portfolio for my client using Wix website builder.",
+    },
+    {
+      name: "Flights Server",
+      imageUrl: "/img/projects/flight.png",
+      clientStack: "",
+      serverStack: "Node, Express, Axios",
       liveUrl: "",
       liveName: "",
-      gitUrl: "https://github.com/ValEmpire/freshjobs",
-      gitName: "ValEmpire/fresh-jobs",
-      details: "My po.",
+      gitUrl: "https://github.com/ValEmpire/flights",
+      gitName: "ValEmpire/flights",
+      details:
+        "Wrote a simple backend JSON API. Routes recieves JSON data about new tickets being created and returns JSON data about the flights that are happening between start date  and end date.",
     },
   ];
 
