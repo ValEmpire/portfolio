@@ -17,8 +17,8 @@ const experienceContent = [
   },
   {
     year: "January 2020 - January 2021",
-    position: "Freelance Software Developer",
-    compnayName: "Videohive",
+    position: "Web App Developer",
+    compnayName: "Freelancer",
     details: `
     Developed RESTful apis using Node, Express, MongoDB or Sequelize. 
     Developed mobile application using Flutter. 
