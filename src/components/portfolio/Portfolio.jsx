@@ -102,8 +102,7 @@ const Portfolio = () => {
       liveName: "",
       gitUrl: "https://github.com/ValEmpire/freshjobs",
       gitName: "ValEmpire/fresh-jobs",
-      details:
-        "Freshjobs is a job listing website that provide opportunities for job seekers who does not have an experience in technology industry.",
+      details: "My po.",
     },
   ];
 
