@@ -10,7 +10,7 @@ const Portfolio = () => {
       clientStack: "Firebase, React, Material UI, SocketIo, Redux, Stripe",
       serverStack:
         "Node, Express, Firebase-admin, SocketIo, PostgreSQL, Sequelize, http-only cookie, Stripe",
-      liveUrl: "http://138.197.155.90/",
+      liveUrl: "http://investorsweb.ca/",
       liveName: "investorsweb.ca",
       gitUrl: "https://github.com/ValEmpire/investorsweb",
       gitName: "ValEmpire/investorsweb",
