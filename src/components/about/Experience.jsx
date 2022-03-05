@@ -2,12 +2,6 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   May 2021 - Feb 2022",
-    position: "In Store Crew",
-    compnayName: "Dominos Pizza",
-    details: `Create day to day food inventories, taking phone calls, filling out specific orders, making pizzas, and handle cash transactions.`,
-  },
-  {
     year: "March 2021 - April 2021",
     position: "Full Stack Developer Co-op",
     compnayName: "Hatchways",

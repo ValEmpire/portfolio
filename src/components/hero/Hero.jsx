@@ -5,7 +5,7 @@ const heroContent = {
   heroMobileImage: "img/hero/port-mobile.jpg",
   heroTitleName: "Arcival Palma",
   heroDesignation: "Web App Developer",
-  heroDescriptions: `Ambitious and driven wev app developer with a broad technical skills set. 
+  heroDescriptions: `Ambitious and driven web app developer with a broad technical skills set. 
   Expertise in RESTful apis using Node and Express, and well versed in client side or server side rendering in React and Redux.`,
   heroBtn: "more about me",
 };

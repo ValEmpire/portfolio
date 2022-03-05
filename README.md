@@ -2,7 +2,7 @@
 
 ### 🚀 About Me
 
-Ambitious and driven wev app developer with a broad technical skills set. Expertise in RESTful apis using Node and Express, and well versed in client side or server side rendering in React and Redux.
+Ambitious and driven web app developer with a broad technical skills set. Expertise in RESTful apis using Node and Express, and well versed in client side or server side rendering in React and Redux.
 
 ### Tech Stack
 
