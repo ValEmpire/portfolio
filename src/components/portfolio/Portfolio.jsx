@@ -18,6 +18,19 @@ const Portfolio = () => {
         "A marketplace for entrepreneurs to showcase their startups and raise funding from investors.",
     },
     {
+      name: "JobTracker",
+      imageUrl: "/img/projects/jobtracker.png",
+      clientStack:
+        "React, Firebase Realtime Database, Firebase Hosting, React Spreadsheet",
+      serverStack: "",
+      liveUrl: "https://jobtracker-682cb.web.app/",
+      liveName: "jobtracker.ca",
+      gitUrl: "https://github.com/ValEmpire/jobtracker",
+      gitName: "ValEmpire/jobtracker",
+      details:
+        "A full stack web app for lighthouse students who wants to track their job searching. I built this app to solve issues of students tracking their job searches with their mentors.",
+    },
+    {
       name: "TinyApp",
       imageUrl: "/img/projects/tinyapp.png",
       clientStack: "EJS, JQuery, AJAX",
