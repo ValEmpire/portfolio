@@ -31,6 +31,30 @@ const Portfolio = () => {
         "A full stack web app for lighthouse students who wants to track their job searching. I built this app to solve issues of students tracking their job searches with their mentors.",
     },
     {
+      name: "YouSet",
+      imageUrl: "/img/projects/getInsurance.png",
+      clientStack: "React, Firebase Hosting, Redux, Material UI",
+      serverStack: "",
+      liveUrl: "https://youset-exam.web.app/",
+      liveName: "youset-exam.ca",
+      gitUrl: "https://github.com/ValEmpire/youset",
+      gitName: "ValEmpire/youset-exam",
+      details:
+        "This is a web application for individual who is looking for tenant insurance. This project was made as a technical exam.",
+    },
+    {
+      name: "WeatherApp",
+      imageUrl: "/img/projects/weather-app.png",
+      clientStack: "React, Firebase Hosting, Redux, Material UI",
+      serverStack: "",
+      liveUrl: "https://weather-app-323ee.web.app/",
+      liveName: "weather-app.ca",
+      gitUrl: "https://github.com/ValEmpire/weather-app",
+      gitName: "ValEmpire/weather-app",
+      details:
+        "A simple web app that accepts a city as an input and display the current weather in the same page.",
+    },
+    {
       name: "TinyApp",
       imageUrl: "/img/projects/tinyapp.png",
       clientStack: "EJS, JQuery, AJAX",
