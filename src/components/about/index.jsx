@@ -41,7 +41,7 @@ const index = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span className="button-text">Download CV</span>
+                  <span className="button-text">Download Resume</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
               </div>
